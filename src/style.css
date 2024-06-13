@@ -1,0 +1,160 @@
+
+
+.why, .how, .faq, .save, .testmonials, .footer {
+    padding: 6rem 0rem;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.navbar {
+    background-color: var(--clr-blue);
+    color: white;
+}
+
+.footer__box1 {
+    flex: 0.5;
+}
+.footer__part {
+    flex: 0.5;
+}
+.footer__container {
+    display: flex;
+    align-items: start !important;
+    justify-content: space-between !important;
+}
+
+
+
+
+
+.hero {
+    height: 90vh !important;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.color {
+    color: var(--clr-blue);
+}
+.hero__left {
+    flex: 0.6;
+}
+.hero__right {
+    flex: 0.4;
+}
+.book {
+    background-color: #f5f5f7;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgb(222, 221, 221);
+    padding: 2rem !important;
+}
+.book__inputs {
+    flex-wrap: wrap;
+}
+.search__btn {
+    border-radius: 0px !important;
+    width: 19rem;
+    border: 1px solid var(--clr-blue);
+    background-color: var(--clr-blue);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.how__header {
+    align-items: center;
+}
+.how__header, .why__header {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.how__item, .why__item {
+    text-align: center;
+    align-items: center;
+}
+.box {
+    width: 10rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    height: 10rem;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    background-color: #f5f5f7;
+}
+.cookies__desc {
+    flex: 0.9;
+}
+.cookies__hide {
+    display: none;
+}
+
+.save {
+    background-color: hsl(240, 11%, 96%);
+    text-align: center;
+}
+
+.testmonials {
+    text-align: center;
+    background-color: #f5f5f7;
+}
+.card {
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    background-color: white;
+}
+
+@media (max-width: 800px) {
+    .hero {
+        height: 100vw;
+    }
+    .hero__left {
+        text-align: center;
+        flex: 1;
+    }
+    .hero__btns {
+        flex-direction: column;
+        gap: 0.5rem !important;
+    }
+    .cookies {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .cookies__btns {
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .how__items, .why__items {
+        flex-direction: column;
+    }
+    .how__header, .how__item, .why__header, .why__item {
+        width: 22rem;
+    }
+    .hero__container {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .hero__right {
+        display: none;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__part {
+        width: 100%;
+    }
+}
