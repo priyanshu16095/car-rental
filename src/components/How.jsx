@@ -6,7 +6,7 @@ function Why() {
 
             <div className="how__container container flex-v gap-xl">
                 <div className="how__header flex-c gap-xs">
-                    <p className="title">How Zipcar works?</p>
+                    <p className="title">How Rentcar works?</p>
                     <p className='info'>Reserve wheels when you want them, by the hour or day, and only pay for the time you drive.</p>
                 </div>
 

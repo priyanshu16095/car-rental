@@ -28,7 +28,7 @@ function Navbar() {
 
                 </div>
 
-                <h2>zipcar</h2>
+                <h2>rentcar</h2>
 
                 <div className="navbar__links flex-h gap">
                     <p className="link">Help</p>
