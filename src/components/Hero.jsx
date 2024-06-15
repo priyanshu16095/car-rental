@@ -1,5 +1,6 @@
 import React from 'react'
 import Book from './Book'
+import CarRentalIcon from '@mui/icons-material/CarRental';
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
               <p className='info'>Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
             </div>
             <div className="hero__btns flex-h gap">
-              <button className="btn">Book Ride</button>
+              <button className="btn icon__btn"><CarRentalIcon className='icon' />Book Ride</button>
               <button className="btn">Learn More</button>
             </div>
           </div>

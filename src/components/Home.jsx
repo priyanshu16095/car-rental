@@ -9,11 +9,13 @@ import Save from './Save'
 import Testimonials from './Testimonials'
 import Book from './Book'
 import Footer from './Footer'
+import ResponsiveNavbar from './ResponsiveNavbar'
 
 function Home() {
     return (
         <div className='home flex-v'>
-            <Navbar />
+            <div className="navbar__res"><Navbar /></div>
+            <div className="resnavbar__res"><ResponsiveNavbar /></div>
             <Hero />
             <Book />
             <How />

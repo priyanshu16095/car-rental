@@ -16,7 +16,7 @@ function Why() {
                         <div className="box"></div>
                         <div>
                             <p className="font">Save Money</p>
-                            <p className='info'>Zipcar covers gas, insurance options,* parking, and maintenance for a potential savings of $1000/month over car ownership.</p>
+                            <p className='info'>Zipcar covers gas, insurance options,* parking, and maintenance for a potential savings of <span className="color">$1000/month</span> over car ownership.</p>
                         </div>
                     </div>
                     <div className='why__item flex-v gap-xs'>

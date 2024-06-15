@@ -1,9 +1,12 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
 
 function Book() {
     return (
         <div className='book container padding flex-v gap'>
             <p className="font">Book a Car</p>
+
+            <img src="car_icon.png" width={'200rem'} className='car__icon' />
 
             <div className="book__inputs flex-s gap-xs">
                 <div className="book_input flex-v gap-xs">
@@ -28,7 +31,10 @@ function Book() {
                 </div>
                 <div className="flex-v gap-xs">
                     <label></label>
-                    <button className="btn search__btn">Search</button>
+                    <button className="btn icon__btn flex-h gap-s">
+                        <SearchIcon className='icon' />
+                        Search
+                    </button>
                 </div>
             </div>
 
