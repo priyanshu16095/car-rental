@@ -9,7 +9,7 @@
 }
 
 .app {
-  min-width: 100%;
+  width: 100%;
 }
 .pointer {
   cursor: pointer;
@@ -103,7 +103,7 @@
 
 .link {
   font-size: 1.1rem;
-  font-weight: 500  ;
+  font-weight: 500;
 }
 p {
   font-size: 1.2rem;

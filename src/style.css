@@ -28,7 +28,7 @@
 
 
 .hero {
-    height: 90vh !important;
+    height: 100vh !important;
 }
 .hero__title {
     font-weight: 700;
@@ -118,6 +118,11 @@
     background-color: white;
 }
 
+
+.footer {
+    background-color: #f5f5f7;
+}
+
 @media (max-width: 800px) {
     .hero {
         height: 100vw;
@@ -157,4 +162,8 @@
     .footer__part {
         width: 100%;
     }
+    .testimonials__cards {
+        flex-direction: column;
+    }
 }
+
